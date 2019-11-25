@@ -7,7 +7,6 @@ let count = 1;
 
 export default function StarWarsPerson() {
     const [person, setPerson] = useState([]);
-    const [people, setPeople] = useState([]);
     const [endpoint, setEndpoint] = useState(`https://swapi.co/api/people/?page=${count}`);
 
     function NextPage(event) {

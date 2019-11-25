@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardHeader, CardBody, CardText, Col, Button } from 'reactstrap';
+import { Card, CardHeader, CardBody, CardText, Col } from 'reactstrap';
 
 const StarWarsCard = ({ character }) => {
     return (
